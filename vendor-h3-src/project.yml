@@ -1,0 +1,41 @@
+name: H3 Studio
+options:
+  deploymentTarget:
+    macOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    ENABLE_APP_SANDBOX: NO
+    ENABLE_HARDENED_RUNTIME: NO
+targets:
+  H3 Studio:
+    type: application
+    platform: macOS
+    sources: [Sources]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.beispiel.h3studio
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: H3 Studio
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.graphics-design
+  H3 Studio Tests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [Tests]
+    dependencies:
+      - target: H3 Studio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.beispiel.h3studio.tests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  H3 Studio:
+    build:
+      targets:
+        H3 Studio: all
+        H3 Studio Tests: [test]
+    test:
+      targets:
+        - H3 Studio Tests

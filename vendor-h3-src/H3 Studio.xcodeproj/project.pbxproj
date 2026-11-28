@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21911B1C1832844E75D4D857 /* StudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BAAE875F48EF8FB28D493C /* StudioModel.swift */; };
+		542733DB11A5C3607F225717 /* H3StudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF62B21B81780D8F99354B /* H3StudioApp.swift */; };
+		73E2A50FBC6F49962B3E60D2 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7D24824685A81E1A78AB4 /* Core.swift */; };
+		A39972A5BA1FA189A3E1E428 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF21750D28E604F613B0E2 /* CoreTests.swift */; };
+		B1BAA7D0EC043643C4CA27DE /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34BF2D460D79029875B82AF /* Backend.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6DD438860506A97943E6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42E9267A81C51107CCC95E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D068B8448494C0FA7328D94;
+			remoteInfo = "H3 Studio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BAAE875F48EF8FB28D493C /* StudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioModel.swift; sourceTree = "<group>"; };
+		4CE7D24824685A81E1A78AB4 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		587779E6950D30829B5B7E59 /* H3 Studio Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H3 Studio Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDF62B21B81780D8F99354B /* H3StudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3StudioApp.swift; sourceTree = "<group>"; };
+		B4AF21750D28E604F613B0E2 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		E34BF2D460D79029875B82AF /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		F4594FCABF054D429FAA1D4F /* H3 Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H3 Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00E0BEB83A5020E28DCD2AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587779E6950D30829B5B7E59 /* H3 Studio Tests.xctest */,
+				F4594FCABF054D429FAA1D4F /* H3 Studio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22EBCC97E40D705631FA876D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B4AF21750D28E604F613B0E2 /* CoreTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A6C614354756AEDBBA7A101A = {
+			isa = PBXGroup;
+			children = (
+				FCDCFC88C57C124E0B7BA648 /* Sources */,
+				22EBCC97E40D705631FA876D /* Tests */,
+				00E0BEB83A5020E28DCD2AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDCFC88C57C124E0B7BA648 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E34BF2D460D79029875B82AF /* Backend.swift */,
+				4CE7D24824685A81E1A78AB4 /* Core.swift */,
+				5BDF62B21B81780D8F99354B /* H3StudioApp.swift */,
+				40BAAE875F48EF8FB28D493C /* StudioModel.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		332F601C3E2A4088D4DA9671 /* H3 Studio Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90097A56E7DD472AB28AF87B /* Build configuration list for PBXNativeTarget "H3 Studio Tests" */;
+			buildPhases = (
+				486872EF7C79E770ACCF045C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F13D125F9B53E6AD7576E6 /* PBXTargetDependency */,
+			);
+			name = "H3 Studio Tests";
+			packageProductDependencies = (
+			);
+			productName = "H3 Studio Tests";
+			productReference = 587779E6950D30829B5B7E59 /* H3 Studio Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D068B8448494C0FA7328D94 /* H3 Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8939FE1D12623027A140F49B /* Build configuration list for PBXNativeTarget "H3 Studio" */;
+			buildPhases = (
+				351F1C41417332D1C8CA5EAC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "H3 Studio";
+			packageProductDependencies = (
+			);
+			productName = "H3 Studio";
+			productReference = F4594FCABF054D429FAA1D4F /* H3 Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E42E9267A81C51107CCC95E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					332F601C3E2A4088D4DA9671 = {
+						ProvisioningStyle = Manual;
+					};
+					9D068B8448494C0FA7328D94 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E117BBBA01A81EC6BAFDBD4E /* Build configuration list for PBXProject "H3 Studio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A6C614354756AEDBBA7A101A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 00E0BEB83A5020E28DCD2AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D068B8448494C0FA7328D94 /* H3 Studio */,
+				332F601C3E2A4088D4DA9671 /* H3 Studio Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351F1C41417332D1C8CA5EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BAA7D0EC043643C4CA27DE /* Backend.swift in Sources */,
+				73E2A50FBC6F49962B3E60D2 /* Core.swift in Sources */,
+				542733DB11A5C3607F225717 /* H3StudioApp.swift in Sources */,
+				21911B1C1832844E75D4D857 /* StudioModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486872EF7C79E770ACCF045C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39972A5BA1FA189A3E1E428 /* CoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F13D125F9B53E6AD7576E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D068B8448494C0FA7328D94 /* H3 Studio */;
+			targetProxy = 5F6DD438860506A97943E6AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EA5DE0B9A894F82817FB35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.beispiel.h3studio.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H3 Studio.app/Contents/MacOS/H3 Studio";
+			};
+			name = Debug;
+		};
+		1D21FBD4D5F97EAE353966CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "H3 Studio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.beispiel.h3studio;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38D836173F567E369EC5FC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7517FF442F72BD8FD1262D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD43EB5810612C36552EFC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.beispiel.h3studio.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H3 Studio.app/Contents/MacOS/H3 Studio";
+			};
+			name = Release;
+		};
+		D014E372BC11EDE22A2D664B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "H3 Studio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.beispiel.h3studio;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8939FE1D12623027A140F49B /* Build configuration list for PBXNativeTarget "H3 Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D21FBD4D5F97EAE353966CC /* Debug */,
+				D014E372BC11EDE22A2D664B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		90097A56E7DD472AB28AF87B /* Build configuration list for PBXNativeTarget "H3 Studio Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA5DE0B9A894F82817FB35E /* Debug */,
+				AD43EB5810612C36552EFC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E117BBBA01A81EC6BAFDBD4E /* Build configuration list for PBXProject "H3 Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7517FF442F72BD8FD1262D5E /* Debug */,
+				38D836173F567E369EC5FC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E42E9267A81C51107CCC95E9 /* Project object */;
+}
